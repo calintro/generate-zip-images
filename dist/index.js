@@ -39,7 +39,7 @@ var JSZipExample = function () {
       this.imgData = imgDataArray;
       // console.log(_typeof(this.imgData));
       // console.log(this.imgData);
-      this.createFolder();
+      // this.createFolder();
       this.getAndCreateImages();
       this.render(zipFileName, callBackSuccess, callBackError);
       //});
@@ -87,7 +87,7 @@ var JSZipExample = function () {
             var data = _ref.data;
 
 
-            _this.file('image' + (i + 1) + '.' + extension, data);
+            _this.zip.file('image' + (i + 1) + '.' + extension, data);
             resolve();
           }).catch(function (error) {
             console.log(error);
