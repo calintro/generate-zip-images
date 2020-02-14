@@ -71,7 +71,7 @@
     "style-loader": "^0.19.1",
     "validate-commit-msg": "2.6.1",
     "webpack": "^1.13.1",
-    "webpack-dev-server": "^2.11.1"
+    "webpack-dev-server": "^3.10.3"
   },
   "files": [
     "dist"
